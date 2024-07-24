@@ -1,0 +1,26 @@
+body{
+    background-image: url("images.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    Background-size: cover;
+    display:flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+     flex: auto
+}
+article{
+    flex-wrap: wrap;
+    flex: 2;
+    overflow-y: auto;
+}
+aside{
+    flex-wrap: wrap;
+    flex: 1;
+    overflow-y: auto;
+    background-color: mediumorchid;
+}
